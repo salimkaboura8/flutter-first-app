@@ -1,16 +1,50 @@
-# first_tp
+<div align="center">
 
-A new Flutter project.
+# 🚀 Flutter First App
 
-## Getting Started
+**My first Flutter project: a profile card, a quiz page and a BLoC counter**
 
-This project is a starting point for a Flutter application.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![BLoC](https://img.shields.io/badge/BLoC-Pattern-13B9FD?style=for-the-badge)
 
-A few resources to get you started if this is your first Flutter project:
+[📂 Source](lib) · [🎨 UI](lib/ui) · [🧠 BLoC](lib/bloc)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+</div>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📖 Overview
+
+An introduction to **Flutter** fundamentals. The app opens on a styled profile page and links to a quiz screen. Along the way it covers layouts, assets, named routes and a first look at state management with a `CountBloc`.
+
+## 🔄 How It Works
+
+| Step | What happens |
+|:---:|---|
+| 1️⃣ | `MaterialApp` opens on the **Profile Home Page**, wrapped in a `BlocProvider` |
+| 2️⃣ | The profile card is built with `Stack`, `CircleAvatar` and decorated boxes |
+| 3️⃣ | A named route (`/second`) goes to the **Quiz** page |
+| 4️⃣ | `CountBloc` adds each incoming event to its current count |
+
+## ✨ Highlights
+
+| 🎨 Layout | 🧭 Navigation | 🧠 State |
+|---|---|---|
+| `Stack`, `Column`, `Padding`<br>Rounded cards<br>Image assets | `MaterialApp` routes<br>`Navigator.pushNamed` | `flutter_bloc` counter<br>`BlocProvider` at the root |
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/salimkaboura8/flutter-first-app.git
+cd flutter-first-app
+
+flutter pub get
+flutter run
+```
+
+---
+
+<div align="center">
+Made with ❤️ by <a href="https://github.com/salimkaboura8">Salim Kaboura</a>
+</div>
